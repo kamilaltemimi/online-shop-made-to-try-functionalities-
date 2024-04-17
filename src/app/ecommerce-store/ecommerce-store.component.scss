@@ -1,0 +1,44 @@
+
+.container {
+  margin-top: 10px;
+  .row {
+
+    .product-container{
+
+      .card {
+        
+        .card-title {
+          height: 50px;
+        }
+
+        .card-image {
+          height: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+
+          .product-image {
+            max-height: 200px;
+          }
+        } 
+        .card-body {
+          height: 220px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+            .card-form-amount-select {
+              width: 130px;
+              margin-right: 15px;
+            }
+
+            .card-button {
+              cursor: pointer;
+            }
+          
+        }
+      }
+    }
+  }
+}

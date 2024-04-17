@@ -1,0 +1,19 @@
+<nav class="navbar bg-warning border-bottom border-body">
+  <div class="navbar-content">
+    <div class="navbar-content-left">
+      <span>LOGO SKLEPU</span>
+    </div>
+    <div class="navbar-content-right">
+      <span (click)="navigate()">CART</span>
+      <div class="navbar-content-right-cart">
+        <img class="navbar-content-right-cart-image" src="../../../assets/cart.svg">
+        <div *ngIf="cartAmount" class="navbar-content-right-cart-count-container">
+          <span class="navbar-content-right-cart-count">{{ cartAmount }}</span>
+        </div>
+      </div>
+      <button (click)="emptyCart()" class="btn btn-danger navbar-content-right-button">
+        <p class="navbar-content-right-button-text">Opróżnij</p>
+      </button>
+    </div>
+  </div>
+</nav>

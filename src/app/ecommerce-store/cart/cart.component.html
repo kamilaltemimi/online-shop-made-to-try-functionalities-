@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center mt-5">
+      <div>Cart summary</div>
+    </div>
+  </div>
+  <div class="row list justify-content-center mt-3">
+
+    <div class="col-6 col-lg-4">
+      <div class="row" *ngFor="let product of cart">
+        <div class="image-container col-6 ">
+          <img class="img" src="../../../assets/products/{{product.image}}">
+        </div>
+        <div class="col-6 ">
+          <div class="row">
+            <div class="col-12">
+            Product: {{product.title}}
+            </div>
+            <div class="col-12">
+            Amount: {{product.selectedAmount}}
+            </div>
+            <div class="col-12">
+            Price: {{product.price}}
+            </div>
+            <div class="col-12">
+              Sum: {{product.selectedAmount * product.price}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-2 col-lg-4 d-flex align-items-center">
+      <div>Total price: {{totalPrice | currency}}</div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+</div>

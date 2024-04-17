@@ -1,0 +1,102 @@
+{
+  "products": [
+      {
+      "id" : 1,
+      "title" : "Airpods pro",
+      "image" : "airpods.jpg",
+      "description" : "【Newest Bluetooth 5.3 Technology】Our bluetooth earbuds use the Adopt the most advanced Bluetooth 5.3 technology on the market currently, which means the bluetooth earbuds have the most stable signal connection, better sound quality and lower power consumption.",
+      "price" : 200.00,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 2,
+      "title" : "Reactive Patterns with RxJS for Angular - book",
+      "image" : "book.jpg",
+      "description" : "This book is a step-by-step guide to learning everything about RxJS and reactivity. You'll begin by understanding the importance of the reactive paradigm and the new features of RxJS 7. Next, you'll discover various reactive patterns, based on real-world use cases, for managing your application's data efficiently and implementing common features using the fewest lines of code.",
+      "price" : 20.00,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 3,
+      "title" : "charger for iPhone 15 (3 pack)",
+      "image" : "charger.jpg",
+      "description" : "[Fast Charger] This charger supports 20W charging via PD (Power Delivery), meaning you can charge your phone to 58% in just half an hour, which is 3X faster than an original 5W charger.",
+      "price" : 29.99,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 4,
+      "title" : "Iphone 15 Pro Max - 256GB",
+      "image" : "iphone.jpg",
+      "description" : "iPhone 15 Pro Max has a 6.7-inch all-screen Super Retina XDR display with the Dynamic Island. The back is textured matte glass, and there is a contoured-edge titanium band around the frame. The Action button is on the upper left side, and the side button is on the right side of the device. There are three cameras on the back: Ultra Wide, Main, and Telephoto. There is a LiDAR Scanner on the back. There is an LED True Tone flash on the back. In the United States, there is no SIM tray. In other countries or regions, there is a SIM tray on the left side that holds a fourth form factor (4FF) nano-SIM card. On the bottom there is a USB-C connector for charging and transferring data.",
+      "price" : 999.99,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 5,
+      "title" : "keyboard KEYCHRON - (fast typing)",
+      "image" : "keyboard.jpg",
+      "description" : "wired mechanical keyboard engineered for Mac and Windows. Customize per-key typing experience to maximize your productivity on the C2 version without the need to solder.",
+      "price" : 100.50,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 6,
+      "title" : "keyboard + mouse - keychron",
+      "image" : "keyboard2.jpg",
+      "description" : "The Keychron V6 is a fully customizable mechanical keyboard with QMK/VIA support. Anyone can intuitively master any keyboard keys or macro commands (incl. the knob) through the VIA software. The V6 is designed to be able to assemble easily, so you can customize the hardware and software with endless possibilities.",
+      "price" : 125.00,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 7,
+      "title" : "Macbook PRO 16' 1TB 36 GB RAM M3 Max",
+      "image" : "macbook.jpg",
+      "description" : "Apple M3 Pro and M3 Max chip, Up to 14-core CPU, Up to 30-core GPU, Hardware-accelerated ray tracing, 16-core Neural Engine, 150GB/s memory bandwidth",
+      "price" : 4800.00,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 8,
+      "title" : "monitor DELL 27' IPS DISPLAY!",
+      "image" : "monitor.jpg",
+      "description" : "The Dell S2722QC usb-c monitor is designed with an elegant 27-inch screen boasting outstanding visuals. This 27-inch 4k monitor has integrated dual 3W speakers so you can listen to whatever you want without having to purchase speakers. The In-Plane Switching (IPS) technology together with 99% sRGB color coverage lets you see extraordinary colors across a wide viewing angle. The AMD FreeSync technology features up to 60Hz refresh rate so you can enjoy a smooth, tear-free experience. The ComfortView feature reduces harmful blue light emissions so you can stay online longer without getting eye fatigue. Charging and connecting your storage devices, mobile phones and other peripherals just got easier with a conveniently placed, quick-access USB 3.2 Gen 1 Type-A port.",
+      "price" : 500.00,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 9,
+      "title" : "DELL 49' IPS BLACK 60HZ",
+      "image" : "monitor2.jpg",
+      "description" : "49DQHD (5120 x 1440) Curved Display - The 49-inch Dual QHD (5129x1440) curved monitor with an ultra-wide 32:9 aspect ratio provides massive screen real estate that fully envelopes players into the game with immersive and vivid gameplay.",
+      "price" : 1200.00,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 10,
+      "title" : "Mouse KEYCHRON WHITE",
+      "image" : "mouse.jpg",
+      "description" : "Keychron M3 mini has all the best features in an ultra-lightweight body at only 55g. It supports wireless 2.4 GHz and Bluetooth 5.1 wireless connection, ideal for any scenario, whether at work, gaming, or on the go, and offers the best performance to maximize productivity.",
+      "price" : 60.20,
+      "selectedAmount" : 0
+    },
+
+    {
+      "id" : 1,
+      "title" : "logitech mouse comfortable",
+      "image" : "mouse2.jpg",
+      "description" : "Amazon Basics Ergonomic Wireless PC Mouse - DPI adjustable - Black",
+      "price" : 99.99,
+      "selectedAmount" : 0
+    }
+  ]
+}
