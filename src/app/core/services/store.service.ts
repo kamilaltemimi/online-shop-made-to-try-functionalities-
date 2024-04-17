@@ -16,6 +16,7 @@ export class StoreService {
     "price" : 200.00,
     "selectedAmount" : 1
   }])
+  
   cart = this.cartSource.asObservable()
 
   URL = 'http://localhost:3000/products'
@@ -46,6 +47,4 @@ export class StoreService {
   getProducts(): Observable<Product[]>{
     return this.http.get<Product[]>(this.URL)
   }
-
-
 }

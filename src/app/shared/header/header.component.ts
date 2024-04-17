@@ -25,7 +25,6 @@ export class HeaderComponent implements OnInit {
         amount += Number(data[i].selectedAmount)
       } return amount
     })).subscribe(data => this.cartAmount = data)
-
   }
 
   emptyCart(): void {

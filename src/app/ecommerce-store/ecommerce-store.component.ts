@@ -32,7 +32,5 @@ export class EcommerceStoreComponent implements OnInit {
   selectAmount(selectedAmount: Event){
     const selectedOption = (selectedAmount.target as HTMLInputElement).value
     this.selectedAmount = Number(selectedOption)
-
-
   }
 }
